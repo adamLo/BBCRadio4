@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190DA8041CF2FA660037D06E /* BBCScheduleScrollerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 190DA8031CF2FA660037D06E /* BBCScheduleScrollerTableViewCell.m */; };
+		190DA8071CF300E10037D06E /* BBCScheduleScrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 190DA8061CF300E10037D06E /* BBCScheduleScrollerViewController.m */; };
+		190DA80A1CF304C40037D06E /* BBCProgramCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 190DA8091CF304C40037D06E /* BBCProgramCollectionViewCell.m */; };
+		190DA80D1CF309200037D06E /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 190DA80C1CF309200037D06E /* ImageCache.m */; };
+		1927D6521CF2E9C3007A2243 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1927D6511CF2E9C3007A2243 /* DataManager.m */; };
+		F30BF2221B9F28DC00F6750C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F30BF2211B9F28DC00F6750C /* main.m */; };
+		F30BF2251B9F28DC00F6750C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F30BF2241B9F28DC00F6750C /* AppDelegate.m */; };
+		F30BF2281B9F28DC00F6750C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30BF2271B9F28DC00F6750C /* MasterViewController.m */; };
+		F30BF22B1B9F28DC00F6750C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F30BF22A1B9F28DC00F6750C /* DetailViewController.m */; };
+		F30BF22E1B9F28DC00F6750C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30BF22C1B9F28DC00F6750C /* Main.storyboard */; };
+		F30BF2301B9F28DC00F6750C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30BF22F1B9F28DC00F6750C /* Images.xcassets */; };
+		F30BF2331B9F28DC00F6750C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F30BF2311B9F28DC00F6750C /* LaunchScreen.xib */; };
+		F30BF23F1B9F28DC00F6750C /* BBCRadio4ScheduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F30BF23E1B9F28DC00F6750C /* BBCRadio4ScheduleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F30BF2391B9F28DC00F6750C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30BF2141B9F28DC00F6750C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30BF21B1B9F28DC00F6750C;
+			remoteInfo = BBCRadio4Schedule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190DA8021CF2FA660037D06E /* BBCScheduleScrollerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCScheduleScrollerTableViewCell.h; sourceTree = "<group>"; };
+		190DA8031CF2FA660037D06E /* BBCScheduleScrollerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCScheduleScrollerTableViewCell.m; sourceTree = "<group>"; };
+		190DA8051CF300E10037D06E /* BBCScheduleScrollerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCScheduleScrollerViewController.h; sourceTree = "<group>"; };
+		190DA8061CF300E10037D06E /* BBCScheduleScrollerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCScheduleScrollerViewController.m; sourceTree = "<group>"; };
+		190DA8081CF304C40037D06E /* BBCProgramCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCProgramCollectionViewCell.h; sourceTree = "<group>"; };
+		190DA8091CF304C40037D06E /* BBCProgramCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCProgramCollectionViewCell.m; sourceTree = "<group>"; };
+		190DA80B1CF309200037D06E /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		190DA80C1CF309200037D06E /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		1927D6501CF2E9C3007A2243 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		1927D6511CF2E9C3007A2243 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		F30BF21C1B9F28DC00F6750C /* BBCRadio4Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBCRadio4Schedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30BF2201B9F28DC00F6750C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30BF2211B9F28DC00F6750C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F30BF2231B9F28DC00F6750C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F30BF2241B9F28DC00F6750C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F30BF2261B9F28DC00F6750C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F30BF2271B9F28DC00F6750C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F30BF2291B9F28DC00F6750C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F30BF22A1B9F28DC00F6750C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F30BF22D1B9F28DC00F6750C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F30BF22F1B9F28DC00F6750C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F30BF2321B9F28DC00F6750C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F30BF2381B9F28DC00F6750C /* BBCRadio4ScheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBCRadio4ScheduleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30BF23D1B9F28DC00F6750C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30BF23E1B9F28DC00F6750C /* BBCRadio4ScheduleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCRadio4ScheduleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30BF2191B9F28DC00F6750C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30BF2351B9F28DC00F6750C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30BF2131B9F28DC00F6750C = {
+			isa = PBXGroup;
+			children = (
+				F30BF21E1B9F28DC00F6750C /* BBCRadio4Schedule */,
+				F30BF23B1B9F28DC00F6750C /* BBCRadio4ScheduleTests */,
+				F30BF21D1B9F28DC00F6750C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F30BF21D1B9F28DC00F6750C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30BF21C1B9F28DC00F6750C /* BBCRadio4Schedule.app */,
+				F30BF2381B9F28DC00F6750C /* BBCRadio4ScheduleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30BF21E1B9F28DC00F6750C /* BBCRadio4Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				F30BF2231B9F28DC00F6750C /* AppDelegate.h */,
+				F30BF2241B9F28DC00F6750C /* AppDelegate.m */,
+				F30BF2261B9F28DC00F6750C /* MasterViewController.h */,
+				F30BF2271B9F28DC00F6750C /* MasterViewController.m */,
+				F30BF2291B9F28DC00F6750C /* DetailViewController.h */,
+				F30BF22A1B9F28DC00F6750C /* DetailViewController.m */,
+				F30BF22C1B9F28DC00F6750C /* Main.storyboard */,
+				F30BF22F1B9F28DC00F6750C /* Images.xcassets */,
+				F30BF2311B9F28DC00F6750C /* LaunchScreen.xib */,
+				F30BF21F1B9F28DC00F6750C /* Supporting Files */,
+				1927D6501CF2E9C3007A2243 /* DataManager.h */,
+				1927D6511CF2E9C3007A2243 /* DataManager.m */,
+				190DA80B1CF309200037D06E /* ImageCache.h */,
+				190DA80C1CF309200037D06E /* ImageCache.m */,
+				190DA8021CF2FA660037D06E /* BBCScheduleScrollerTableViewCell.h */,
+				190DA8031CF2FA660037D06E /* BBCScheduleScrollerTableViewCell.m */,
+				190DA8051CF300E10037D06E /* BBCScheduleScrollerViewController.h */,
+				190DA8061CF300E10037D06E /* BBCScheduleScrollerViewController.m */,
+				190DA8081CF304C40037D06E /* BBCProgramCollectionViewCell.h */,
+				190DA8091CF304C40037D06E /* BBCProgramCollectionViewCell.m */,
+			);
+			path = BBCRadio4Schedule;
+			sourceTree = "<group>";
+		};
+		F30BF21F1B9F28DC00F6750C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F30BF2201B9F28DC00F6750C /* Info.plist */,
+				F30BF2211B9F28DC00F6750C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F30BF23B1B9F28DC00F6750C /* BBCRadio4ScheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F30BF23E1B9F28DC00F6750C /* BBCRadio4ScheduleTests.m */,
+				F30BF23C1B9F28DC00F6750C /* Supporting Files */,
+			);
+			path = BBCRadio4ScheduleTests;
+			sourceTree = "<group>";
+		};
+		F30BF23C1B9F28DC00F6750C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F30BF23D1B9F28DC00F6750C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30BF21B1B9F28DC00F6750C /* BBCRadio4Schedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30BF2421B9F28DC00F6750C /* Build configuration list for PBXNativeTarget "BBCRadio4Schedule" */;
+			buildPhases = (
+				F30BF2181B9F28DC00F6750C /* Sources */,
+				F30BF2191B9F28DC00F6750C /* Frameworks */,
+				F30BF21A1B9F28DC00F6750C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBCRadio4Schedule;
+			productName = BBCRadio4Schedule;
+			productReference = F30BF21C1B9F28DC00F6750C /* BBCRadio4Schedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F30BF2371B9F28DC00F6750C /* BBCRadio4ScheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30BF2451B9F28DC00F6750C /* Build configuration list for PBXNativeTarget "BBCRadio4ScheduleTests" */;
+			buildPhases = (
+				F30BF2341B9F28DC00F6750C /* Sources */,
+				F30BF2351B9F28DC00F6750C /* Frameworks */,
+				F30BF2361B9F28DC00F6750C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30BF23A1B9F28DC00F6750C /* PBXTargetDependency */,
+			);
+			name = BBCRadio4ScheduleTests;
+			productName = BBCRadio4ScheduleTests;
+			productReference = F30BF2381B9F28DC00F6750C /* BBCRadio4ScheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30BF2141B9F28DC00F6750C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Super Cool Start-up";
+				TargetAttributes = {
+					F30BF21B1B9F28DC00F6750C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F30BF2371B9F28DC00F6750C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F30BF21B1B9F28DC00F6750C;
+					};
+				};
+			};
+			buildConfigurationList = F30BF2171B9F28DC00F6750C /* Build configuration list for PBXProject "BBCRadio4Schedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30BF2131B9F28DC00F6750C;
+			productRefGroup = F30BF21D1B9F28DC00F6750C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30BF21B1B9F28DC00F6750C /* BBCRadio4Schedule */,
+				F30BF2371B9F28DC00F6750C /* BBCRadio4ScheduleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30BF21A1B9F28DC00F6750C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30BF22E1B9F28DC00F6750C /* Main.storyboard in Resources */,
+				F30BF2331B9F28DC00F6750C /* LaunchScreen.xib in Resources */,
+				F30BF2301B9F28DC00F6750C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30BF2361B9F28DC00F6750C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30BF2181B9F28DC00F6750C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30BF2251B9F28DC00F6750C /* AppDelegate.m in Sources */,
+				1927D6521CF2E9C3007A2243 /* DataManager.m in Sources */,
+				F30BF2281B9F28DC00F6750C /* MasterViewController.m in Sources */,
+				190DA8071CF300E10037D06E /* BBCScheduleScrollerViewController.m in Sources */,
+				F30BF2221B9F28DC00F6750C /* main.m in Sources */,
+				190DA8041CF2FA660037D06E /* BBCScheduleScrollerTableViewCell.m in Sources */,
+				F30BF22B1B9F28DC00F6750C /* DetailViewController.m in Sources */,
+				190DA80D1CF309200037D06E /* ImageCache.m in Sources */,
+				190DA80A1CF304C40037D06E /* BBCProgramCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30BF2341B9F28DC00F6750C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30BF23F1B9F28DC00F6750C /* BBCRadio4ScheduleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F30BF23A1B9F28DC00F6750C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30BF21B1B9F28DC00F6750C /* BBCRadio4Schedule */;
+			targetProxy = F30BF2391B9F28DC00F6750C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F30BF22C1B9F28DC00F6750C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30BF22D1B9F28DC00F6750C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F30BF2311B9F28DC00F6750C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30BF2321B9F28DC00F6750C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30BF2401B9F28DC00F6750C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F30BF2411B9F28DC00F6750C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30BF2431B9F28DC00F6750C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BBCRadio4Schedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool.startup.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F30BF2441B9F28DC00F6750C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BBCRadio4Schedule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool.startup.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F30BF2461B9F28DC00F6750C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BBCRadio4ScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool.startup.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBCRadio4Schedule.app/BBCRadio4Schedule";
+			};
+			name = Debug;
+		};
+		F30BF2471B9F28DC00F6750C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BBCRadio4ScheduleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cool.startup.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBCRadio4Schedule.app/BBCRadio4Schedule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30BF2171B9F28DC00F6750C /* Build configuration list for PBXProject "BBCRadio4Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30BF2401B9F28DC00F6750C /* Debug */,
+				F30BF2411B9F28DC00F6750C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30BF2421B9F28DC00F6750C /* Build configuration list for PBXNativeTarget "BBCRadio4Schedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30BF2431B9F28DC00F6750C /* Debug */,
+				F30BF2441B9F28DC00F6750C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30BF2451B9F28DC00F6750C /* Build configuration list for PBXNativeTarget "BBCRadio4ScheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30BF2461B9F28DC00F6750C /* Debug */,
+				F30BF2471B9F28DC00F6750C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F30BF2141B9F28DC00F6750C /* Project object */;
+}
